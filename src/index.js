@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename={process.env.PUBLIC_URL || process.env.PORT}>
      <App />
    </BrowserRouter>,
   document.getElementById('root')
