@@ -7,6 +7,8 @@ import Image from "react-bootstrap/Image";
 import Col from "react-bootstrap/Col";
 import "../pages/style.css"
 
+
+//contact us page
 class Contact extends Component {
 
     state={
