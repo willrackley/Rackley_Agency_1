@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import MainPage from "./pages/MainPage";
 import Contact from "./pages/Contact";
 import './App.css';
-//app screen
 
 function App() {
   return (
