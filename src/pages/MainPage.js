@@ -6,10 +6,6 @@ import Button from "react-bootstrap/Button"
 
 class MainPage extends Component {
 
-
-
-
-
     render() {
 
         return (
