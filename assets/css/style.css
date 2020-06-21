@@ -18,3 +18,19 @@ nav {
 body {
     font-family: 'Playfair Display', serif;
 }
+
+@media screen and (max-width: 425px){
+
+    .introSec {
+        text-align: center;
+    }
+
+    .bioParagraph {
+        width: 100% !important;
+    }
+
+    .introVid {
+        height: 100% !important;
+    }
+}
+
