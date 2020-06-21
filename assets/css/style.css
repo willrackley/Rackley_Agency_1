@@ -29,6 +29,10 @@ body {
         width: 100% !important;
     }
 
+    #bioPic {
+        margin: 0 auto;
+    }
+
     .introVid {
         height: 100% !important;
     }
