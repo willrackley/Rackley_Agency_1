@@ -36,10 +36,10 @@ submitBtn.addEventListener("click", function(){
         time.style.border = "1px solid red";
         return;
     }
-    if (message.value.length === 20) {
+    if (message.value.length <= 20) {
         message.style.border = "1px solid red";
         return;
     }
 
-    window.open(`mailto:bud@email.address?subject=I would like more info about the Rackley Agency&body=${message.value.trim()}%0d%0a %0d%0a${firstname.value.trim()} ${lastname.value.trim()} %0d%0a${phone.value.trim()}%0d%0a${email.value.trim()}%0d%0a I would like to be reached at ${time.value.trim()}`)
+    window.open(`mailto:vrackley83@gmail.com?subject=I would like more info about the Rackley Agency&body=${message.value.trim()}%0d%0a %0d%0a${firstname.value.trim()} ${lastname.value.trim()} %0d%0a${phone.value.trim()}%0d%0a${email.value.trim()}%0d%0a I would like to be reached at ${time.value.trim()}`)
 })
