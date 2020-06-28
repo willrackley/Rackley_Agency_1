@@ -36,7 +36,7 @@ submitBtn.addEventListener("click", function(){
         time.style.border = "1px solid red";
         return;
     }
-    if (message.value.length <= 20) {
+    if (message.value.length === 0) {
         message.style.border = "1px solid red";
         return;
     }
